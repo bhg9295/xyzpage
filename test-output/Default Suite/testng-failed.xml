@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="xyz-bank-page-factory-project(failed)">
+    <classes>
+      <class name="com.xyzbank.testsuite.BankTest">
+        <methods>
+          <include name="customerShouldDepositMoneySuccessfully"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="customerShouldWithdrawMoneySuccessfully"/>
+          <include name="bankManagerShouldAddCustomerSuccessfully"/>
+          <include name="customerShouldLoginAndLogoutSuccessfully"/>
+          <include name="inIT"/>
+        </methods>
+      </class> <!-- com.xyzbank.testsuite.BankTest -->
+    </classes>
+  </test> <!-- xyz-bank-page-factory-project(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
